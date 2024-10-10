@@ -2,14 +2,14 @@
 
 <h2>Description</h2>
 A user had the following issue:<br>
-My computer's giving me a black screen with a bunch of confusing text when I try to turn it on. I'm using my phone to send this 'cause I can't get past this screen.
+My computer is giving me a black screen with a bunch of confusing text when I try to turn it on. I'm using my phone to send this 'cause I can't get past this screen.
 If you could check it out and help me out ASAP, that'd be awesome. Got work waiting.
 
 <h2>Troubleshooting Process</h2>
 
 I powered up the computer and got the Windows Boot Manager with the message “The Boot Configuration Data for your PC is missing or contains errors”.
 
-- <b>Theory 1: The boot configuration data is corrupted. I restarted the computer and booted from a Windows CD; I then chose the “Repair your Computer” option > Troubleshoot > Command Prompt from there, I ran checked the disk partitions (diskpart), listed the disks (list disk), selected disk 0, listed the partitions (list partition), selected the partition where Windows was installed, marked the partition as active, and then exited. I then clicked “Continue to Windows 10”, removed the disk from the CD drive, and restarted the computer; the computer now boots up and launches Windows.</b>
+- <b>Theory 1: The boot configuration data is corrupted. I restarted the computer and booted from a Windows CD; I then chose the “Repair your Computer” option > Troubleshoot > Command Prompt from there, I ran check the disk partitions (diskpart), listed the disks (list disk), selected disk 0, listed the partitions (list partition), selected the partition where Windows was installed, marked the partition as active, and then exited. I then clicked “Continue to Windows 10”, removed the disk from the CD drive, and restarted the computer; the computer now boots up and launches Windows.</b>
 
 <h2>Resolution</h2>
 
